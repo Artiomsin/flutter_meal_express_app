@@ -1,0 +1,1 @@
+ /Users/artem/Downloads/sem2/flutter_projects/rapid_gourmet/.dart_tool/flutter_build/34951c002e848f6ac72969c750c3bdfd/native_assets.yaml: 

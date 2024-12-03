@@ -1,0 +1,61 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d chrome --devtools-server-address http://127.0.0.1:9101/ --target /Users/artem/Downloads/sem2/flutter_projects/rapid_gourmet/lib/main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:59906/json
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.24.2, on macOS 14.6.1 23G93 darwin-arm64, locale ru-BY)
+    • Flutter version 3.24.2 on channel stable at /Users/artem/Downloads/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 4cf269e36d (8 weeks ago), 2024-09-03 14:30:00 -0700
+    • Engine revision a6bd3f1de1
+    • Dart version 3.5.2
+    • DevTools version 2.37.2
+
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[✓] Xcode - develop for iOS and macOS (Xcode 15.4)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 15F31d
+    • CocoaPods version 1.15.2
+
+[✓] Chrome - develop for the web
+    • CHROME_EXECUTABLE = /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+
+[✓] VS Code (version 1.92.2)
+    • VS Code at /Users/artem/Desktop/Visual Studio Code.app/Contents
+    • Flutter extension can be installed from:
+      🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (3 available)
+    • macOS (desktop)                 • macos                 • darwin-arm64   • macOS 14.6.1 23G93 darwin-arm64
+    • Mac Designed for iPad (desktop) • mac-designed-for-ipad • darwin         • macOS 14.6.1 23G93 darwin-arm64
+    • Chrome (web)                    • chrome                • web-javascript • Google Chrome 130.0.6723.91
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.
+```
